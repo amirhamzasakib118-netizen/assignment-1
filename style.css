@@ -57,8 +57,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
-     background-color: aqua;
+    background-image:url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
      text-align:center;
     
      
@@ -92,6 +91,7 @@ nav {
 .private-space {
     margin-bottom: 32px;
     font-size: 18px;
+    color: #FFFFFF;
 }
 
 .btn2 {
