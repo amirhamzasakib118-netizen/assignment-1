@@ -37,7 +37,7 @@ nav {
 }
 
 .btn:hover{
-    color: rgb(153, 255, 140);
+    background-color: rgb(153, 255, 140);
 }
 
 .banner {
@@ -94,7 +94,7 @@ nav {
 
 .btn2:hover {
         cursor:pointer;
-        color: aquamarine;
+        background-color: aquamarine;
 }
 
 
@@ -105,6 +105,11 @@ nav {
     background-color: transparent;
     border: 1px solid white;
     border-radius: 4px;
+}
+
+.btn3:hover {
+    cursor:pointer;
+    background-color: hotpink;
 }
 
 .bn {
