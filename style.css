@@ -13,6 +13,7 @@
 }
 
 .container {
+    width: 83%;
     max-width: 1600px;
     margin: auto;
 }
@@ -20,36 +21,46 @@
 nav {
     display: flex;
     justify-content: space-around;
+}
+
+.nav-logo {
+    max-width: 138px;
     align-items: center;
-    padding: 16px 120px;
-    gap: 346px;
+    justify-content: center;
+    margin: 16px;
 }
 
 
 .nav-list {
     display: flex;
+    align-items: center;
+    justify-content: center;
     list-style-type: none;
     gap: 32px;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
     
 }
 
 .btn {
-    width: 10%;
     max-width: 164px;
-    color: white;
-    border: none;
     padding: 12px 16px;
     background-color: #469165;
-    border-radius: 4px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    text-align: center;
+    margin: 24px;
     cursor: grab;
-    font-size: 16px;
+  
+   
 }
 
-.btn:hover{
-    background-color: rgb(153, 255, 140);
+.btn:hover {
+    background-color: #30B868;
 }
+
+
 
 .banner {
     height: 674px;
@@ -143,3 +154,103 @@ nav {
 .color2 {
     color: #30B868;
 }
+
+.card-section-heading {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 16px;
+    font-size: 30px;
+}
+
+.card-section-p {
+    text-align: center;
+    padding-bottom: 16px;
+    font-size: 16px;
+}
+
+.card {
+  max-width: 1600px;
+  margin: auto;
+  display: flex;
+  width: 71%;
+  max-width: 1360px;
+  padding:  120px;
+  gap: 24px;
+  align-items: center;
+ 
+}
+
+
+
+.card .card1 {
+    width: 322px;
+    margin: auto;
+    padding: 37px;
+     background-color: #FFFFFF;
+    border: 1px solid #6273821a;
+    border-bottom: none;
+    text-align: center;
+}
+.card .card2 {
+    width: 322px;
+    margin: auto;
+    padding: 24px;
+     background-color: #FFFFFF;
+    border: 1px solid #6273821a;
+    border-bottom: none;
+    text-align: center;
+}
+.card .card3 {
+    width: 322px;
+    margin: auto;
+    padding: 24px;
+     background-color: #FFFFFF;
+    border: 1px solid #6273821a;
+    border-bottom: none;
+    text-align: center;
+}
+.card .card4 {
+    width: 300px;
+    margin: auto;
+    padding: 24px;
+     background-color: #FFFFFF;
+    border: 1px solid #6273821a;
+    border-bottom: none;
+    text-align: center;
+}
+
+.card1 .vector {
+    border: 1px solid #F95555;
+    background-color: #F95555;
+    padding: 8px;
+    border-radius:5000px;
+    margin-bottom: 16px;
+}
+.card2 .book {
+    border: 1px solid #F95555;
+    background-color: #F95555;
+    padding: 8px;
+    border-radius:5000px;
+    margin-bottom: 16px;
+}
+.card3 .brain {
+    border: 1px solid #F95555;
+    background-color: #F95555;
+    padding: 8px;
+    border-radius:5000px;
+    margin-bottom: 16px;
+}
+.card4 .info {
+    border: 1px solid #F95555;
+    background-color: #F95555;
+    padding: 8px;
+    border-radius:500px;
+    margin-bottom: 16px;
+}
+
+.ch {
+    margin-bottom: 16px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
