@@ -257,6 +257,7 @@ nav {
 .second-brain {
     background-color: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.014);
+    margin-bottom: 120px;
 }
 
 .solution {
@@ -306,4 +307,84 @@ nav {
 .checklist4 {
     display:flex;
     
+}
+
+
+.container4{
+    width: 71%;
+    max-width: 1360px;
+    margin-top: 2px;
+    margin-left: 280px;
+    margin-bottom: 120px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:#fae48c15;
+}
+
+.challenge-heading {
+    font-size: 30px;
+    padding: 80px 40px 16px 40px;
+}
+
+.chln-p {
+    font-size: 16px;
+    padding-bottom: 16px;
+}
+
+.btn4 {
+      max-width: 164px;
+    padding: 12px 16px;
+    background-color: #469165;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: none;
+    text-align: center;
+    margin: 24px;
+    cursor: grab;
+}
+
+.btn4:hover {
+    background-color: #30B868;
+}
+
+.no-credit {
+    padding-bottom: 80px;
+}
+
+
+footer {
+    background:linear-gradient(#001931);
+}
+
+.footer-content {
+    max-width: 1360px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 790px; 
+    padding: 120px;
+
+}
+
+.footer-logo {
+      max-width: 138px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+}
+
+.social {
+    color: white;
+}
+.lnk {
+    margin-bottom: 16px;
+}
+
+.copyright {
+   text-align: center;
+   color: #FFFFFF;
+   border-top: 0.5px solid rgba(255, 255, 255, 0.096);
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
