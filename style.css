@@ -376,6 +376,7 @@ footer {
 
 .social {
     color: white;
+    cursor: pointer;
 }
 .lnk {
     margin-bottom: 16px;
