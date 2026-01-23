@@ -183,16 +183,16 @@ nav {
 
 
 .card .card1 {
-    width: 322px;
+    max-width: 322px;
     margin: auto;
-    padding: 37px;
+    padding: 24px;
      background-color: #FFFFFF;
     border: 1px solid #6273821a;
     border-bottom: none;
     text-align: center;
 }
 .card .card2 {
-    width: 322px;
+   max-width: 322px;
     margin: auto;
     padding: 24px;
      background-color: #FFFFFF;
@@ -201,7 +201,7 @@ nav {
     text-align: center;
 }
 .card .card3 {
-    width: 322px;
+    max-width: 322px;
     margin: auto;
     padding: 24px;
      background-color: #FFFFFF;
@@ -210,7 +210,7 @@ nav {
     text-align: center;
 }
 .card .card4 {
-    width: 300px;
+    max-width: 322px;
     margin: auto;
     padding: 24px;
      background-color: #FFFFFF;
@@ -254,3 +254,56 @@ nav {
     font-weight: 700;
 }
 
+.second-brain {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.014);
+}
+
+.solution {
+      font-size: 16px;
+      margin-bottom: 16px;
+}
+
+.green {
+    color: #469165;
+}
+
+.second-brain-heading {
+     font-size: 48px;
+     margin-bottom: 16px;
+}
+
+.personal-knowledge {
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.second-brain-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 120px;
+  
+}
+
+.checkcircle {
+    font-size: 16px;
+}
+
+.checklist1 {
+    display:flex;
+    padding-bottom: 16px;
+}
+.checklist2 {
+    display:flex;
+    padding-bottom: 16px;
+}
+.checklist3 {
+    display:flex;
+    padding-bottom: 16px;
+}
+.checklist4 {
+    display:flex;
+    
+}
